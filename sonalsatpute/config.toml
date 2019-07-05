@@ -1,0 +1,75 @@
+baseurl = "http://www.example.com"
+title = "sonal satpute"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Sonal Satpute"
+    info = "{ Solution Architect | Software Craftsman | ❤️ to code; }"
+    description = "Sonal's personal website"
+    keywords = "blog, developer, architect"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = """I have singed <a href="http://outlierdeveloper.com/manifesto/#/manifesto" target="_blank">Outlier Manifesto</a> <br><br>
+
+<i>I’m not interested in being average. I’m out to be exceptional.<br> 
+I’m not waiting to be picked. I’m actively creating opportunities. <br>
+I’m commanding my time so I can own my trajectory and maximize my impact.</i><br>"""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/sonalsatpute/"
+[[params.social]]
+    name = "StackOverflow"
+    icon = "fab fa-stack-overflow"
+    weight = 2
+    url = "https://stackoverflow.com/users/544487/sonal-satpute?tab=profile"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/sonalsatpute/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/sonalsatpute/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 5
+    url = "https://medium.com/@sonalsatpute"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
